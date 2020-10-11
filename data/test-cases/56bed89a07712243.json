@@ -1,0 +1,140 @@
+{
+  "uid" : "56bed89a07712243",
+  "name" : "VoidACredit - Valid Details",
+  "time" : {
+    "start" : 1601601358566,
+    "stop" : 1601601361530,
+    "duration" : 2964
+  },
+  "description" : "ReadyAPI test case results",
+  "descriptionHtml" : "<p>ReadyAPI test case results</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "ReadyAPI test case results",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test Data",
+      "time" : {
+        "start" : 1601601358566,
+        "stop" : 1601601358651,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 83\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:15:58 WAT 2020\r\nTestStep: Test Data\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Hashing",
+      "time" : {
+        "start" : 1601601358651,
+        "stop" : 1601601358652,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:15:58 WAT 2020\r\nTestStep: Hashing\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "HashedData",
+      "time" : {
+        "start" : 1601601358652,
+        "stop" : 1601601358653,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:15:58 WAT 2020\r\nTestStep: HashedData\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "VoidACredit - Request",
+      "time" : {
+        "start" : 1601601358653,
+        "stop" : 1601601361487,
+        "duration" : 2834
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 2811\r\nSize: 167\r\nTimestamp: Fri Oct 02 02:15:58 WAT 2020\r\nTestStep: VoidACredit - Request\r\n\r\n----------------- Messages ------------------------------\r\n\r\n----------------- Properties ------------------------------\r\nHTTP Version: HTTP/1.1\r\nEndpoint: https://appsuat.ecobank.com\r\nMethod: POST\r\nStatusCode: 200\r\nURL: https://appsuat.ecobank.com/cybersource/manager/voidacredit\r\n\r\n---------------- Request ---------------------------\r\norigin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nConnection: [Keep-Alive]\r\nUser-Agent: [Apache-HttpClient/4.5.2 (Java/12.0.1)]\r\nHost: [appsuat.ecobank.com]\r\nAccept-Encoding: [gzip,deflate]\r\nContent-Length: [622]\r\nContent-Type: [application/xml]\r\n\r\nPOST https://appsuat.ecobank.com/cybersource/manager/voidacredit HTTP/1.1\r\nAccept-Encoding: gzip,deflate\r\nContent-Type: application/xml\r\norigin: https://10.8.179.133:7503/UnifiedAdminPortal\r\nContent-Length: 622\r\nHost: appsuat.ecobank.com\r\nConnection: Keep-Alive\r\nUser-Agent: Apache-HttpClient/4.5.2 (Java/12.0.1)\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<voidTransactionRequest>\n    <transactionId>6014530799446854104003</transactionId>\n    <clientReferenceInformation>ECO_5f69b48a7eb850</clientReferenceInformation>\n    <affiliatecode>EGH</affiliatecode>\n    <merchantKeyId>9196af64-839a-460e-962e-569b5f496df5</merchantKeyId>\n    <merchantsecretKey>mRClUbb/NZu+R1vw/Lm9Bv9uTtPH7CTzwzI8T3CSE4A=</merchantsecretKey>\n    <merchantID>eco1234</merchantID>\n     <secureHash>8b224a2b4cbfb08b3e965188756c7b512c0e4c55d9f6f340c1c7ada555e21996eb26dd1751a16063a886bf274f97880e8b577a09d681d0c6540ff1cb1c696b68</secureHash>\n</voidTransactionRequest>\r\n\r\n---------------- Response --------------------------\r\nTransfer-Encoding: [chunked]\r\nAccess-Control-Allow-Origin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nAccess-Control-Allow-Methods: [POST]\r\nPragma: [No-cache]\r\nDate: [Fri, 02 Oct 2020 01:18:12 GMT]\r\nAccess-Control-Allow-Headers: [X-Requested-With, Content-Type, Accept]\r\nStrict-Transport-Security: [max-age=31622400; includeSubDomains]\r\nCache-Control: [no-store, no-cache, must-revalidate]\r\nExpires: [Thu, 01 Jan 1970 00:00:00 GMT]\r\n#status#: [HTTP/1.1 200 OK]\r\nX-XSS-Protection: [1; mode=block]\r\nAccess-Control-Max-Age: [3600]\r\nContent-Type: [application/xml]\r\n\r\n<voidTransactionResponse>\r\n   <responseCode>400</responseCode>\r\n   <responseMessage>Bad Request</responseMessage>\r\n</voidTransactionResponse>\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "DataSource Loop",
+      "time" : {
+        "start" : 1601601361489,
+        "stop" : 1601601361491,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:16:01 WAT 2020\r\nTestStep: DataSource Loop\r\n\r\n----------------- Messages ------------------------------\r\nData Row 1\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "VoidACredit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56bed89a07712243.json",
+  "parameterValues" : [ ]
+}

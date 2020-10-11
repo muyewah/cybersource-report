@@ -1,0 +1,64 @@
+{
+  "uid" : "bf7a0845bdec7a93",
+  "name" : "Utilities",
+  "time" : {
+    "start" : 1601601291752,
+    "stop" : 1601601291817,
+    "duration" : 65
+  },
+  "description" : "ReadyAPI test case results",
+  "descriptionHtml" : "<p>ReadyAPI test case results</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "ReadyAPI test case results",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "SecureHash",
+      "time" : {
+        "start" : 1601601291753,
+        "stop" : 1601601291810,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:51 WAT 2020\r\nTestStep: SecureHash\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dependencies"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf7a0845bdec7a93.json",
+  "parameterValues" : [ ]
+}

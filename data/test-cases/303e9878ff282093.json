@@ -1,0 +1,216 @@
+{
+  "uid" : "303e9878ff282093",
+  "name" : "RefundPayment - Valid Details",
+  "time" : {
+    "start" : 1601601291918,
+    "stop" : 1601601298995,
+    "duration" : 7077
+  },
+  "description" : "ReadyAPI test case results",
+  "descriptionHtml" : "<p>ReadyAPI test case results</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "ReadyAPI test case results",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test Data",
+      "time" : {
+        "start" : 1601601291919,
+        "stop" : 1601601292021,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 100\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:51 WAT 2020\r\nTestStep: Test Data\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Hashing",
+      "time" : {
+        "start" : 1601601292022,
+        "stop" : 1601601292024,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:52 WAT 2020\r\nTestStep: Hashing\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "HashedData",
+      "time" : {
+        "start" : 1601601292025,
+        "stop" : 1601601292025,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:52 WAT 2020\r\nTestStep: HashedData\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "RefundPayment - Request",
+      "time" : {
+        "start" : 1601601292026,
+        "stop" : 1601601295122,
+        "duration" : 3096
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 3083\r\nSize: 404\r\nTimestamp: Fri Oct 02 02:14:52 WAT 2020\r\nTestStep: RefundPayment - Request\r\n\r\n----------------- Messages ------------------------------\r\n\r\n----------------- Properties ------------------------------\r\nHTTP Version: HTTP/1.1\r\nEndpoint: https://appsuat.ecobank.com\r\nMethod: POST\r\nStatusCode: 200\r\nURL: https://appsuat.ecobank.com/cybersource/manager/refundpayment\r\n\r\n---------------- Request ---------------------------\r\norigin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nConnection: [Keep-Alive]\r\nUser-Agent: [Apache-HttpClient/4.5.2 (Java/12.0.1)]\r\nHost: [appsuat.ecobank.com]\r\nAccept-Encoding: [gzip,deflate]\r\nContent-Length: [787]\r\nContent-Type: [application/xml]\r\n\r\nPOST https://appsuat.ecobank.com/cybersource/manager/refundpayment HTTP/1.1\r\nAccept-Encoding: gzip,deflate\r\nContent-Type: application/xml\r\norigin: https://10.8.179.133:7503/UnifiedAdminPortal\r\nContent-Length: 787\r\nHost: appsuat.ecobank.com\r\nConnection: Keep-Alive\r\nUser-Agent: Apache-HttpClient/4.5.2 (Java/12.0.1)\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<RefunRequest>\n    <clientReferenceInformation>ECO_5f69b48a7eb850</clientReferenceInformation>\n     <transactionId>6014592693586123004002</transactionId>\n    <orderInformationAmountDetailsTotalAmount>10.00</orderInformationAmountDetailsTotalAmount>\n    <orderInformationAmountDetailsCurrency>USD</orderInformationAmountDetailsCurrency>\n      <affiliatecode>EGH</affiliatecode>\n    <merchantKeyId>9196af64-839a-460e-962e-569b5f496df5</merchantKeyId>\n    <merchantsecretKey>mRClUbb/NZu+R1vw/Lm9Bv9uTtPH7CTzwzI8T3CSE4A=</merchantsecretKey>\n    <merchantID>eco1234</merchantID> \n    <secureHash>b656ecab74123b3e8c3bff84eb855e2fc9fe64ff7ac979a21bf640c169750c9c60744959755460f0d9d28d29e58efef446ea1030a196570942988978f5fbd12d</secureHash>\n</RefunRequest>\r\n\r\n---------------- Response --------------------------\r\nTransfer-Encoding: [chunked]\r\nAccess-Control-Allow-Origin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nAccess-Control-Allow-Methods: [POST]\r\nPragma: [No-cache]\r\nDate: [Fri, 02 Oct 2020 01:17:06 GMT]\r\nAccess-Control-Allow-Headers: [X-Requested-With, Content-Type, Accept]\r\nStrict-Transport-Security: [max-age=31622400; includeSubDomains]\r\nCache-Control: [no-store, no-cache, must-revalidate]\r\nExpires: [Thu, 01 Jan 1970 00:00:00 GMT]\r\n#status#: [HTTP/1.1 200 OK]\r\nX-XSS-Protection: [1; mode=block]\r\nAccess-Control-Max-Age: [3600]\r\nContent-Type: [application/xml]\r\n\r\n<RefundResponse>\r\n   <clientReferenceInformation>ECO_5f69b48a7eb850</clientReferenceInformation>\r\n   <currency>USD</currency>\r\n   <reconciliationId>6014592693586123004002</reconciliationId>\r\n   <refundAmount>10.00</refundAmount>\r\n   <refundid>6016014301516713704006</refundid>\r\n   <responseCode>000</responseCode>\r\n   <responseMessage>success</responseMessage>\r\n   <status>PENDING</status>\r\n</RefundResponse>\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "DataSource Loop",
+      "time" : {
+        "start" : 1601601295122,
+        "stop" : 1601601295124,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:55 WAT 2020\r\nTestStep: DataSource Loop\r\n\r\n----------------- Messages ------------------------------\r\nData Row 1\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Hashing",
+      "time" : {
+        "start" : 1601601295124,
+        "stop" : 1601601295126,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:55 WAT 2020\r\nTestStep: Hashing\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "HashedData",
+      "time" : {
+        "start" : 1601601295127,
+        "stop" : 1601601295127,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:55 WAT 2020\r\nTestStep: HashedData\r\n\r\n----------------- Messages ------------------------------\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "RefundPayment - Request",
+      "time" : {
+        "start" : 1601601295128,
+        "stop" : 1601601298913,
+        "duration" : 3785
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 3767\r\nSize: 149\r\nTimestamp: Fri Oct 02 02:14:55 WAT 2020\r\nTestStep: RefundPayment - Request\r\n\r\n----------------- Messages ------------------------------\r\n\r\n----------------- Properties ------------------------------\r\nHTTP Version: HTTP/1.1\r\nEndpoint: https://appsuat.ecobank.com\r\nMethod: POST\r\nStatusCode: 200\r\nURL: https://appsuat.ecobank.com/cybersource/manager/refundpayment\r\n\r\n---------------- Request ---------------------------\r\norigin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nConnection: [Keep-Alive]\r\nUser-Agent: [Apache-HttpClient/4.5.2 (Java/12.0.1)]\r\nHost: [appsuat.ecobank.com]\r\nAccept-Encoding: [gzip,deflate]\r\nContent-Length: [786]\r\nContent-Type: [application/xml]\r\n\r\nPOST https://appsuat.ecobank.com/cybersource/manager/refundpayment HTTP/1.1\r\nAccept-Encoding: gzip,deflate\r\nContent-Type: application/xml\r\norigin: https://10.8.179.133:7503/UnifiedAdminPortal\r\nContent-Length: 786\r\nHost: appsuat.ecobank.com\r\nConnection: Keep-Alive\r\nUser-Agent: Apache-HttpClient/4.5.2 (Java/12.0.1)\r\n\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<RefunRequest>\n    <clientReferenceInformation>ECO_5f69b48a7eb850</clientReferenceInformation>\n     <transactionId>6014530799446854104003</transactionId>\n    <orderInformationAmountDetailsTotalAmount>5.00</orderInformationAmountDetailsTotalAmount>\n    <orderInformationAmountDetailsCurrency>USD</orderInformationAmountDetailsCurrency>\n      <affiliatecode>EGH</affiliatecode>\n    <merchantKeyId>9196af64-839a-460e-962e-569b5f496df5</merchantKeyId>\n    <merchantsecretKey>mRClUbb/NZu+R1vw/Lm9Bv9uTtPH7CTzwzI8T3CSE4A=</merchantsecretKey>\n    <merchantID>eco1234</merchantID> \n    <secureHash>f0d49f5d1bde9fe09da1185e8759bc3777725718e1b6cba60b16faa287d0dcf55d195fbdafd75b0a2cb1ac208e26cd46049b1549f09eea8ea2b7dc6fd81ee945</secureHash>\n</RefunRequest>\r\n\r\n---------------- Response --------------------------\r\nTransfer-Encoding: [chunked]\r\nAccess-Control-Allow-Origin: [https://10.8.179.133:7503/UnifiedAdminPortal]\r\nAccess-Control-Allow-Methods: [POST]\r\nPragma: [No-cache]\r\nDate: [Fri, 02 Oct 2020 01:17:08 GMT]\r\nAccess-Control-Allow-Headers: [X-Requested-With, Content-Type, Accept]\r\nStrict-Transport-Security: [max-age=31622400; includeSubDomains]\r\nCache-Control: [no-store, no-cache, must-revalidate]\r\nExpires: [Thu, 01 Jan 1970 00:00:00 GMT]\r\n#status#: [HTTP/1.1 200 OK]\r\nX-XSS-Protection: [1; mode=block]\r\nAccess-Control-Max-Age: [3600]\r\nContent-Type: [application/xml]\r\n\r\n<RefundResponse>\r\n   <responseCode>400</responseCode>\r\n   <responseMessage>Bad Request</responseMessage>\r\n</RefundResponse>\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "DataSource Loop",
+      "time" : {
+        "start" : 1601601298914,
+        "stop" : 1601601298917,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "statusMessage" : "Status details",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Details",
+        "value" : "Status: PASS\r\nTime Taken: 0\r\nSize: 0\r\nTimestamp: Fri Oct 02 02:14:58 WAT 2020\r\nTestStep: DataSource Loop\r\n\r\n----------------- Messages ------------------------------\r\nData Row 2\r\n"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "RefundPayment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "303e9878ff282093.json",
+  "parameterValues" : [ ]
+}
